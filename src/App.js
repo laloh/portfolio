@@ -8,8 +8,8 @@ import Body from './components/Body';
 function App() {
   return (
 	<div>
-		<ButtonAppBar/>
-		<div className='container'>
+		<ButtonAppBar />
+		<div className='container'> 
 			<Intro />
 			<Body />
 			<Footer />
