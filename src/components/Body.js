@@ -1,33 +1,38 @@
 import React from "react"
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LogoDevIcon from '@mui/icons-material/LogoDev';
 
 const Body = props => {
 	return (
 		<div className='body-content'>
 				<h4>Hello!</h4>
-				<p>
+				<p id='body-content-resume'>
 					You can call me lalo, i'm a full stack developer
 					based in Mexico with passion for building digital
 					service/stuff i find interesting and necessary. I
 					love all things for launching products, from planning
 					and designing all the way to solving real-life problems
 					with code. When not online, i am usually with friends,
-					family and my little Husky.
+					family, and my little Husky.
 				</p>
 				<h4>Bio</h4>
-				<ul>
-					<li>1994 Born in Tabasco, Mexico (Southeast)</li>
-					<li>2016 Academic Exchanged in Spain</li>
-					<li>2018 Graduated from Computer Science Major</li>
-					<li>2020 Worked at Rappi (Remote Unicorn)</li>
-					<li>2021 Launched Business Side-Project</li>
-				</ul>
+					<p>1994 &nbsp; Born in Tabasco, Mexico (Southeast)</p>
+					<p>2016 &nbsp; Academic Exchanged in Spain</p>
+					<p>2018 &nbsp; Graduated from Computer Science Major</p>
+					<p>2020 &nbsp; Worked at Rappi (Remote Unicorn)</p>
+					<p>2021 &nbsp; Launched Business Side-Project</p>
 				<h4>I ♥</h4>
-				<p>Music, Gaming, Running</p>
+				<p>Music, Gaming, and Travelling</p>
 				<h4>On the web</h4>
-				<ul>
-					<li><a href="https://github.com/laloh">@laloh</a></li>
-					<li><a href="https://twitter.com/EduardocarreraH">@EduardocarreraH</a></li>	
-				</ul>
+				<div className="body-content-web">
+					<p><GitHubIcon /><a href="https://github.com/laloh">@laloh</a></p>
+					<p><TwitterIcon /><a href="https://twitter.com/EduardocarreraH">@EduardocarreraH</a></p>
+					<p><LinkedInIcon /><a href="https://www.linkedin.com/in/educarrerah/">@educarrerah</a></p>
+					<p><LogoDevIcon /><a href="https://dev.to/eduardocarrerah">@eduardocarrerah</a></p>
+				</div>
+
 		</div>
 	)
 }

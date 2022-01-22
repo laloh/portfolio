@@ -5,12 +5,15 @@ const Intro = props => {
 		<div className='intro'>
 			<p>Hello 👋, I'm a full-stack developer based in Mexico!</p>
 			<div className='intro-img'> 
-				<div>
+				<div className='intro-img-profile'>
 					<h2>Eduardo Carrera</h2>
-					<h4>Technology Enthusiast (Developer / Gaming / Data)</h4>
+					<h4>Technology Enthusiast (Developer / Gamer / Data)</h4>
 				</div>
-				<img id='avatar' src={require('./profile.jpg')} alt='Developer' />
-			</div> 
+				<div className='intro-img-avatar'>
+					<img src={require('./profile.jpg')} alt='Developer' />
+				</div>
+
+			</div>
 		</div>
 	)
 }

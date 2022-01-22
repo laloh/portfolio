@@ -1,7 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	outline: 1px solid red;
 }
 
 body {
@@ -40,39 +39,73 @@ body {
 
 .container {
 	padding-top: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 30%;
+	padding-right: 30%;
 }
 
 .intro > p {
 	font-size: 1.2rem;
 	text-align: center;
-	margin: 1rem 5rem;
 	padding: 1rem;
 	background-color: rgb(49, 49, 52);
 	border-radius: 0.5rem;
+	color: wheat;
 }
 
 .intro-img {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	border: 1px solid white;
+	color: white;
+	margin-top: 3rem;
 }
+
+.intro-img-profile {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.intro-img-avatar {
+	margin: auto; 
+}
+
+.body-content > h4 {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	border-bottom: 1px solid wheat;
+	color: white;
+}
+
+.body-content > ul > p, 
+.body-content > p,
+.body-content > ul > a,
+.body-content {
+	font-size: 1.2rem;
+	color: white;
+}
+
+#body-content-resume {
+	text-align: justify;
+}
+
+.body-content-web > p {
+	display: flex;
+}
+
 
 img {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
-	border: 3px groove white;
-	margin-left: 4rem;
+	object-fit: cover;
+	border: 2px groove white;
 }
 
-p, ul {
+footer {
 	color: white;
+	text-align: center;
+	margin-top: 3rem;
 }
 
-
-h1, h2, h3, h4 {
-	color: white;
+a {
+	color: wheat;
 }
