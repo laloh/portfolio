@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = props => {
 	return (
 		<div className='intro'>
-			<p>Hello, I'm a full-stack developer based in Mexico!</p>
+			<p>Hello 👋, I'm a full-stack developer based in Mexico!</p>
 			<div className='intro-img'> 
 				<div>
 					<h2>Eduardo Carrera</h2>
