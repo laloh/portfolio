@@ -10,9 +10,8 @@ const Intro = props => {
 					<h4>Technology Enthusiast (Developer / Gamer / Data)</h4>
 				</div>
 				<div className='intro-img-avatar'>
-					<img src={require('./profile.jpg')} alt='Developer' />
-				</div>
-
+					<img className='profile-img' src={require('../assets/profile.jpg')} alt='Developer' />
+				</div> 
 			</div>
 		</div>
 	)
