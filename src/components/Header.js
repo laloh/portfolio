@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
 				</div>
 				<div className='header-profile-source'>
 					<GitHubIcon/> 
-					<span>Source</span>
+					<span><a href='https://github.com/laloh/portfolio'>Source</a></span>
 				</div>		
 		  </div>
 	  </div>
