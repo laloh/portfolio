@@ -13,7 +13,7 @@ export default function ButtonAppBar() {
 		  <div className='header-profile'>
 				<div className='header-profile-name'>
 					<CodeIcon/>
-					<Link className='text-link' to='/' >Eduardo Carrera</Link>
+					<Link className='text-link' to='/' >Me</Link>
 				</div>
 				<div className='header-profile-works'>
 					<WorkRoundedIcon/> 
@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
 				</div>
 				<div className='header-profile-source'>
 					<GitHubIcon/> 
-					<span>Source</span>
+					<span><a href='https://github.com/laloh/portfolio'>Source</a></span>
 				</div>		
 		  </div>
 	  </div>

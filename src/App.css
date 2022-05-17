@@ -15,11 +15,6 @@ body {
 }
 
 /* Right part of the header */
-.header > span {
-  color: white;
-  font-size: 1.5rem;
-}
-
 .header-profile {
   color: white;
   display: flex;
@@ -30,10 +25,11 @@ body {
 .header-profile-works,
 .header-profile-posts,
 .header-profile-source {
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-right: 1rem;
 }
 
 .container {
@@ -52,20 +48,20 @@ body {
 }
 
 .intro-img {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  margin-top: 3rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: white;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .intro-img-profile {
-  margin-top: auto;
-  margin-bottom: auto;
+	margin-top: auto;
+	margin-bottom: 3rem;
 }
 
-.intro-img-avatar {
-  margin: auto;
-}
 
 .body-content > h4 {
   font-size: 1.5rem;
@@ -105,7 +101,8 @@ footer {
 }
 
 a {
-  color: wheat;
+	color: white;
+	text-decoration: none;
 }
 
 .text-link {
@@ -113,26 +110,28 @@ a {
   color: white;
 }
 
+/* Card component */
+
 .title-works {
-  padding-left: 25%;
-  padding-right: 25%;
-  margin-top: 3rem;
-  color: white;
+	padding-left: 22%;
+	padding-right: 22%;
+	margin-top: 3rem;
+	color: white;
 }
 
-/* Card component */
+
 .container-works {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-top: 2%;
-  padding-left: 25%;
-  padding-right: 25%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .container-works > h1 {
-  color: white;
-  padding-bottom: 2rem;
+	color: white;
 }
 
 .card {
