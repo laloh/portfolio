@@ -1,7 +1,7 @@
 import "../App.css";
 import React from "react";
 import ButtonAppBar from "./Header";
-import worksData from "../content";
+import { worksData } from "../content";
 import { SiPython } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";

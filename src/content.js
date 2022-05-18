@@ -59,4 +59,36 @@ const worksData = [
   },
 ];
 
-export default worksData;
+const talksData = [
+  {
+    name: "Thinking in Pandas",
+    brief_desc: "How Pandas Works under the hood.",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    stack: ["google"],
+    link: "https://docs.google.com/presentation/d/1ebeNAS7CPCLAjksPwSovpwcmm8n2BeJ_U1pj7R4R3bw/edit?usp=sharing",
+    asset: "thinking_in_pandas.png",
+  },
+  {
+    name: "Data testing",
+    brief_desc:
+      "Validate, document, and profile your data to maintain quality and improve communication.",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    stack: ["google"],
+    link: "https://docs.google.com/presentation/d/1AYymbnCow0tyfCqCMXxsE1LkN3YgJI2NJwDBLFwhStw/edit?usp=sharing",
+    asset: "data_testing.png",
+  },
+  {
+    name: "Local Stack",
+    brief_desc:
+      "A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    stack: ["google"],
+    link: "https://docs.google.com/presentation/d/135WMWJHDG7xGnDBO1_WvDP129BeNStyVaMQ8xv4-t2w/edit?usp=sharing",
+    asset: "localstack.png",
+  },
+];
+
+export { worksData, talksData };
