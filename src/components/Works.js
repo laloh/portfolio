@@ -45,7 +45,9 @@ const Works = (props) => {
               alt="Dashboard"
             />
             <div className="card-title">
-              <h3>{work.name}</h3>
+              <h3>
+                <a href={work.github}>{work.name}</a>
+              </h3>
             </div>
             <div className="card-description">
               <p>{work.brief_desc}</p>
