@@ -7,6 +7,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["ts", "node", "react"],
     github: "https://github.com/laloh/trello-clone",
+    asset: "trello_clone.png",
   },
   {
     name: "Vendery",
@@ -15,6 +16,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["py", "dj", "postgres", "sh"],
     github: "https://github.com/laloh/vendery",
+    asset: "dashboard.png",
   },
   {
     name: "Movies Catalog",
@@ -23,6 +25,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["docker", "react", "mongodb", "node"],
     github: "https://github.com/laloh/movies-mern",
+    asset: "movies_catalog.png",
   },
   {
     name: "Social Media",
@@ -31,6 +34,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["docker", "mongodb", "gl", "node", "react"],
     github: "https://github.com/laloh/social-media-app",
+    asset: "social_media.png",
   },
   {
     name: "Hang-Man",
@@ -39,6 +43,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["react"],
     github: "https://github.com/laloh/hangman",
+    asset: "hangman.png",
   },
   {
     name: "Expense Tracker",
@@ -47,6 +52,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["react"],
     github: "https://github.com/laloh/expense-tracker",
+    asset: "expense_tracker.png",
   },
   {
     name: "Firegram",
@@ -56,6 +62,7 @@ const worksData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     stack: ["react", "fb"],
     github: "https://github.com/laloh/firegram",
+    asset: "firegram.png",
   },
 ];
 

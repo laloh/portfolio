@@ -25,11 +25,11 @@ body {
 .header-profile-works,
 .header-profile-posts,
 .header-profile-source {
-	font-size: 1.5em;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding-right: 1rem;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1rem;
 }
 
 .container {
@@ -48,20 +48,19 @@ body {
 }
 
 .intro-img {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	color: white;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .intro-img-profile {
-	margin-top: auto;
-	margin-bottom: 3rem;
+  margin-top: auto;
+  margin-bottom: 3rem;
 }
-
 
 .body-content > h4 {
   font-size: 1.5rem;
@@ -101,8 +100,8 @@ footer {
 }
 
 a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .text-link {
@@ -113,25 +112,24 @@ a {
 /* Card component */
 
 .title-works {
-	padding-left: 22%;
-	padding-right: 22%;
-	margin-top: 3rem;
-	color: white;
+  padding-left: 22%;
+  padding-right: 22%;
+  margin-top: 3rem;
+  color: white;
 }
 
-
 .container-works {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding-top: 2%;
-	padding-left: 15%;
-	padding-right: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .container-works > h1 {
-	color: white;
+  color: white;
 }
 
 .card {
@@ -161,12 +159,14 @@ a {
   width: inherit;
   height: 30%;
   color: white;
+  font-size: 1.2rem;
 }
 
 .card-stack {
   width: inherit;
   height: 15%;
-  color: white;
+  color: wheat;
+  font-size: 1.5rem;
   text-align: center;
   border-top: 1px solid wheat;
 }

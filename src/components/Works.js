@@ -41,7 +41,7 @@ const Works = (props) => {
           <div className="card">
             <img
               className="card-img"
-              src={require("../assets/dashboard.png")}
+              src={require(`../assets/${work.asset}`)}
               alt="Dashboard"
             />
             <div className="card-title">
