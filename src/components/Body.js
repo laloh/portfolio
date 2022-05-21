@@ -19,7 +19,7 @@ const Body = props => {
 				</p>
 				<h4>Bio</h4>
 					<p>1994 &nbsp; Born in Tabasco, Mexico (Southeast)</p>
-					<p>2016 &nbsp; Academic Exchanged in Spain</p>
+					<p>2016 &nbsp; Academic Exchange in Spain</p>
 					<p>2018 &nbsp; Graduated from Computer Science Major</p>
 					<p>2020 &nbsp; Worked at Rappi (Remote Unicorn)</p>
 					<p>2021 &nbsp; Launched Business Side-Project</p>
